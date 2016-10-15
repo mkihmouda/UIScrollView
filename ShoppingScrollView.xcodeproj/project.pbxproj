@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0484134F1DB2C13000B11661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484134E1DB2C13000B11661 /* AppDelegate.swift */; };
+		048413511DB2C13000B11661 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048413501DB2C13000B11661 /* ViewController.swift */; };
+		048413541DB2C13000B11661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048413521DB2C13000B11661 /* Main.storyboard */; };
+		048413571DB2C13000B11661 /* ShoppingScrollView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048413551DB2C13000B11661 /* ShoppingScrollView.xcdatamodeld */; };
+		048413591DB2C13000B11661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048413581DB2C13000B11661 /* Assets.xcassets */; };
+		0484135C1DB2C13000B11661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0484135A1DB2C13000B11661 /* LaunchScreen.storyboard */; };
+		048413671DB2C13000B11661 /* ShoppingScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048413661DB2C13000B11661 /* ShoppingScrollViewTests.swift */; };
+		048413721DB2C13000B11661 /* ShoppingScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048413711DB2C13000B11661 /* ShoppingScrollViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048413631DB2C13000B11661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048413431DB2C13000B11661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0484134A1DB2C13000B11661;
+			remoteInfo = ShoppingScrollView;
+		};
+		0484136E1DB2C13000B11661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048413431DB2C13000B11661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0484134A1DB2C13000B11661;
+			remoteInfo = ShoppingScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0484134B1DB2C13000B11661 /* ShoppingScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0484134E1DB2C13000B11661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		048413501DB2C13000B11661 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		048413531DB2C13000B11661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048413561DB2C13000B11661 /* ShoppingScrollView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoppingScrollView.xcdatamodel; sourceTree = "<group>"; };
+		048413581DB2C13000B11661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0484135B1DB2C13000B11661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0484135D1DB2C13000B11661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048413621DB2C13000B11661 /* ShoppingScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048413661DB2C13000B11661 /* ShoppingScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingScrollViewTests.swift; sourceTree = "<group>"; };
+		048413681DB2C13000B11661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0484136D1DB2C13000B11661 /* ShoppingScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048413711DB2C13000B11661 /* ShoppingScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingScrollViewUITests.swift; sourceTree = "<group>"; };
+		048413731DB2C13000B11661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048413481DB2C13000B11661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0484135F1DB2C13000B11661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0484136A1DB2C13000B11661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048413421DB2C13000B11661 = {
+			isa = PBXGroup;
+			children = (
+				0484134D1DB2C13000B11661 /* ShoppingScrollView */,
+				048413651DB2C13000B11661 /* ShoppingScrollViewTests */,
+				048413701DB2C13000B11661 /* ShoppingScrollViewUITests */,
+				0484134C1DB2C13000B11661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0484134C1DB2C13000B11661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0484134B1DB2C13000B11661 /* ShoppingScrollView.app */,
+				048413621DB2C13000B11661 /* ShoppingScrollViewTests.xctest */,
+				0484136D1DB2C13000B11661 /* ShoppingScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0484134D1DB2C13000B11661 /* ShoppingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0484134E1DB2C13000B11661 /* AppDelegate.swift */,
+				048413501DB2C13000B11661 /* ViewController.swift */,
+				048413521DB2C13000B11661 /* Main.storyboard */,
+				048413581DB2C13000B11661 /* Assets.xcassets */,
+				0484135A1DB2C13000B11661 /* LaunchScreen.storyboard */,
+				0484135D1DB2C13000B11661 /* Info.plist */,
+				048413551DB2C13000B11661 /* ShoppingScrollView.xcdatamodeld */,
+			);
+			path = ShoppingScrollView;
+			sourceTree = "<group>";
+		};
+		048413651DB2C13000B11661 /* ShoppingScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				048413661DB2C13000B11661 /* ShoppingScrollViewTests.swift */,
+				048413681DB2C13000B11661 /* Info.plist */,
+			);
+			path = ShoppingScrollViewTests;
+			sourceTree = "<group>";
+		};
+		048413701DB2C13000B11661 /* ShoppingScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				048413711DB2C13000B11661 /* ShoppingScrollViewUITests.swift */,
+				048413731DB2C13000B11661 /* Info.plist */,
+			);
+			path = ShoppingScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0484134A1DB2C13000B11661 /* ShoppingScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048413761DB2C13000B11661 /* Build configuration list for PBXNativeTarget "ShoppingScrollView" */;
+			buildPhases = (
+				048413471DB2C13000B11661 /* Sources */,
+				048413481DB2C13000B11661 /* Frameworks */,
+				048413491DB2C13000B11661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoppingScrollView;
+			productName = ShoppingScrollView;
+			productReference = 0484134B1DB2C13000B11661 /* ShoppingScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048413611DB2C13000B11661 /* ShoppingScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048413791DB2C13000B11661 /* Build configuration list for PBXNativeTarget "ShoppingScrollViewTests" */;
+			buildPhases = (
+				0484135E1DB2C13000B11661 /* Sources */,
+				0484135F1DB2C13000B11661 /* Frameworks */,
+				048413601DB2C13000B11661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048413641DB2C13000B11661 /* PBXTargetDependency */,
+			);
+			name = ShoppingScrollViewTests;
+			productName = ShoppingScrollViewTests;
+			productReference = 048413621DB2C13000B11661 /* ShoppingScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0484136C1DB2C13000B11661 /* ShoppingScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0484137C1DB2C13000B11661 /* Build configuration list for PBXNativeTarget "ShoppingScrollViewUITests" */;
+			buildPhases = (
+				048413691DB2C13000B11661 /* Sources */,
+				0484136A1DB2C13000B11661 /* Frameworks */,
+				0484136B1DB2C13000B11661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0484136F1DB2C13000B11661 /* PBXTargetDependency */,
+			);
+			name = ShoppingScrollViewUITests;
+			productName = ShoppingScrollViewUITests;
+			productReference = 0484136D1DB2C13000B11661 /* ShoppingScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048413431DB2C13000B11661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					0484134A1DB2C13000B11661 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8Z76N75Y66;
+					};
+					048413611DB2C13000B11661 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8Z76N75Y66;
+						TestTargetID = 0484134A1DB2C13000B11661;
+					};
+					0484136C1DB2C13000B11661 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8Z76N75Y66;
+						TestTargetID = 0484134A1DB2C13000B11661;
+					};
+				};
+			};
+			buildConfigurationList = 048413461DB2C13000B11661 /* Build configuration list for PBXProject "ShoppingScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048413421DB2C13000B11661;
+			productRefGroup = 0484134C1DB2C13000B11661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0484134A1DB2C13000B11661 /* ShoppingScrollView */,
+				048413611DB2C13000B11661 /* ShoppingScrollViewTests */,
+				0484136C1DB2C13000B11661 /* ShoppingScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048413491DB2C13000B11661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0484135C1DB2C13000B11661 /* LaunchScreen.storyboard in Resources */,
+				048413591DB2C13000B11661 /* Assets.xcassets in Resources */,
+				048413541DB2C13000B11661 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048413601DB2C13000B11661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0484136B1DB2C13000B11661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048413471DB2C13000B11661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048413511DB2C13000B11661 /* ViewController.swift in Sources */,
+				048413571DB2C13000B11661 /* ShoppingScrollView.xcdatamodeld in Sources */,
+				0484134F1DB2C13000B11661 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0484135E1DB2C13000B11661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048413671DB2C13000B11661 /* ShoppingScrollViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048413691DB2C13000B11661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048413721DB2C13000B11661 /* ShoppingScrollViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048413641DB2C13000B11661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0484134A1DB2C13000B11661 /* ShoppingScrollView */;
+			targetProxy = 048413631DB2C13000B11661 /* PBXContainerItemProxy */;
+		};
+		0484136F1DB2C13000B11661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0484134A1DB2C13000B11661 /* ShoppingScrollView */;
+			targetProxy = 0484136E1DB2C13000B11661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048413521DB2C13000B11661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048413531DB2C13000B11661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0484135A1DB2C13000B11661 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0484135B1DB2C13000B11661 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048413741DB2C13000B11661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048413751DB2C13000B11661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048413771DB2C13000B11661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShoppingScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrandPH.ShoppingScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		048413781DB2C13000B11661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShoppingScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrandPH.ShoppingScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0484137A1DB2C13000B11661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShoppingScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrandPH.ShoppingScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingScrollView.app/ShoppingScrollView";
+			};
+			name = Debug;
+		};
+		0484137B1DB2C13000B11661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShoppingScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrandPH.ShoppingScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingScrollView.app/ShoppingScrollView";
+			};
+			name = Release;
+		};
+		0484137D1DB2C13000B11661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShoppingScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrandPH.ShoppingScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShoppingScrollView;
+			};
+			name = Debug;
+		};
+		0484137E1DB2C13000B11661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShoppingScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrandPH.ShoppingScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShoppingScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048413461DB2C13000B11661 /* Build configuration list for PBXProject "ShoppingScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048413741DB2C13000B11661 /* Debug */,
+				048413751DB2C13000B11661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048413761DB2C13000B11661 /* Build configuration list for PBXNativeTarget "ShoppingScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048413771DB2C13000B11661 /* Debug */,
+				048413781DB2C13000B11661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		048413791DB2C13000B11661 /* Build configuration list for PBXNativeTarget "ShoppingScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0484137A1DB2C13000B11661 /* Debug */,
+				0484137B1DB2C13000B11661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0484137C1DB2C13000B11661 /* Build configuration list for PBXNativeTarget "ShoppingScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0484137D1DB2C13000B11661 /* Debug */,
+				0484137E1DB2C13000B11661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		048413551DB2C13000B11661 /* ShoppingScrollView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				048413561DB2C13000B11661 /* ShoppingScrollView.xcdatamodel */,
+			);
+			currentVersion = 048413561DB2C13000B11661 /* ShoppingScrollView.xcdatamodel */;
+			path = ShoppingScrollView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 048413431DB2C13000B11661 /* Project object */;
+}
