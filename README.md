@@ -1,11 +1,17 @@
 # UIScrollView
 
-# MusicLibrary
-<p align="center">
+ 
+[![Swift 2.3](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org/)
+[![License](https://img.shields.io/cocoapods/l/ParallaxView.svg)](https://github.com/PGSSoft/ParallaxView/LICENSE.md)
 
+ 
+## Requirements
+
+Swift 2.3
 
 Swift IOS Horizontal UIScrollview with animation, Shopping UIScrollView with Animation
 
+<p align="center">
 
   <br><br>  <br><br>
   <img src="http://katikids.com/ShoppingUIScrollView.png" height="650" width="400">
