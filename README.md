@@ -8,6 +8,6 @@ Swift IOS Horizontal UIScrollview with animation, Shopping UIScrollView with Ani
 
 
   <br><br>  <br><br>
-  <img src="http://katikids.com/ShoppingUIScrollView.png.png" height="850" width="600">
+  <img src="http://katikids.com/ShoppingUIScrollView.png" height="850" width="600">
  
   </p>
