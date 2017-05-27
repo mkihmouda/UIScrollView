@@ -14,7 +14,7 @@ Swift 2.3
 <p align="center">
 
   <br><br>  <br><br>
-  <img src="http://katikids.com/ShoppingUIScrollView.png" height="650" width="400">
+  <img src="http://mawaeed.96.lt/uploads/ShoppingUIScrollView.png" height="650" width="400">
  
   </p>
 
